@@ -1,0 +1,7 @@
+sensor_msgs/Image image
+---
+float32 red
+float32 blue
+float32 green
+float32 black
+

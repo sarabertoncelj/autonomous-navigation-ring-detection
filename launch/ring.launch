@@ -1,0 +1,9 @@
+<launch>
+
+        <!-- Start colour detection python script -->
+        <node pkg="task2" name="color_recognition_server" type="colour_recognition.py" output="screen"/>
+
+        <!-- Start ring processing node for clustering -->
+        <node pkg="task2" name="processing_node_rings" type="processing_node_rings" output="screen"/>
+
+</launch>
